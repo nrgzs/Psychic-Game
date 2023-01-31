@@ -33,7 +33,7 @@ function compare(a, b) {
     h2Guess.innerHTML = `Guess Left ${guess}`;
 
     if (guess == 0) {
-      alert('you losses');
+      alert('you lost');
       losses += 1;
       h2Losses.innerHTML = `Losses ${losses}`;
       reload();
